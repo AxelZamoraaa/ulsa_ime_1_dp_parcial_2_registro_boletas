@@ -9,7 +9,7 @@
   },
   "github.copilot.editor.enableAutoCompletions": false,
   "github.copilot.nextEditSuggestions.enabled": true,
-  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.enabled": true,
 
   // ---- No autocomplete: students type everything ----
   "editor.quickSuggestions": { "other": "off", "comments": "off", "strings": "off" },
