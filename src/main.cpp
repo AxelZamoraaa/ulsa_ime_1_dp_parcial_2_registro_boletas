@@ -16,6 +16,7 @@
 // TODO: incluyan aqui el archivo .h de cada bloque individual.
 
 int main() {
+
     // TODO: declaren aqui los cuatro arreglos paralelos y el total de alumnos.
     //       No usen variables globales.
 
