@@ -1,8 +1,14 @@
 {
   // ---- Copilot: no code suggestions (Copilot Chat stays available) ----
-  "github.copilot.enable": { "*": false },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "cpp": true
+  },
   "github.copilot.editor.enableAutoCompletions": false,
-  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
   "editor.inlineSuggest.enabled": false,
 
   // ---- No autocomplete: students type everything ----
@@ -29,5 +35,5 @@
   // Hover stays on so students can read the error messages on the red underlines
   "editor.hover.enabled": "on",
 
-  "chat.disableAIFeatures": true
+  "chat.disableAIFeatures": false
 }
