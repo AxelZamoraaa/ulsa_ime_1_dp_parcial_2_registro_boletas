@@ -16,6 +16,8 @@
 // =====================================================
 
 #include <string>
+#include <iostream>
+#include <iomanip>
 
 // ---------- Constantes compartidas ----------
 // Una constante no es una variable global: su valor nunca cambia.
@@ -76,6 +78,21 @@ void mostrarLista(const std::string nombres[],
 
 bool calificacionValida(double calificacion) {
     return calificacion >= CALIFICACION_MINIMA && calificacion <= CALIFICACION_MAXIMA;
+    void mostrarLista(std::string nombres[], double espanol[], double matematicas[],
+                  double programas[], int total) {
+    if (total == 0) {
+        std::cout << "No hay alumnos registrados.\n";
+        return;
+    }
+    std::cout << "--- LISTA DEL GRUPO ---\n";
+    std::cout << "Nombre\tEsp\tMat\tDP\n";
+    for (int i = 0; i < total; i++) {
+        std::cout << (i + 1) << ". " << nombres[i] << "\t"
+                  << espanol[i] << "\t" << matematicas[i] << "\t"
+                  << programas[i] << "\n";
+    }
+}
+    
 }
 
 
