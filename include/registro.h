@@ -73,3 +73,7 @@ void mostrarLista(const std::string nombres[],
 
 // ---------- Implementacion (equipo) ----------
 // Escriban aqui abajo el codigo de las tres funciones.
+
+bool calificacionValida(double calificacion) {
+    return calificacion >= CALIFICACION_MINIMA && calificacion <= CALIFICACION_MAXIMA;
+}
