@@ -94,3 +94,20 @@ bool calificacionValida(double calificacion) {
 }
     
 }
+
+
+int agregarAlumno(std::string nombres[], double espanol[], double matematicas[],
+                  double programas[], int total, std::string nombre,
+                  double calEspanol, double calMatematicas, double calProgramas) {
+    if (total >= MAX_ALUMNOS) {
+        return total;
+    }
+    nombres[total] = nombre;
+    espanol[total] = calEspanol;
+    matematicas[total] = calMatematicas;
+    programas[total] = calProgramas;
+    return total + 1;
+}
+
+
+
