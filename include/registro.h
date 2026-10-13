@@ -77,3 +77,4 @@ void mostrarLista(const std::string nombres[],
 bool calificacionValida(double calificacion) {
     return calificacion >= CALIFICACION_MINIMA && calificacion <= CALIFICACION_MAXIMA;
 }
+
