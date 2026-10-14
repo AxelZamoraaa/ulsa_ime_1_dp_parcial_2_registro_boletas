@@ -78,7 +78,9 @@ void mostrarLista(const std::string nombres[],
 
 bool calificacionValida(double calificacion) {
     return calificacion >= CALIFICACION_MINIMA && calificacion <= CALIFICACION_MAXIMA;
-    void mostrarLista(std::string nombres[], double espanol[], double matematicas[],
+}
+
+void mostrarLista(std::string nombres[], double espanol[], double matematicas[],
                   double programas[], int total) {
     if (total == 0) {
         std::cout << "No hay alumnos registrados.\n";
@@ -92,10 +94,6 @@ bool calificacionValida(double calificacion) {
                   << programas[i] << "\n";
     }
 }
-    
-}
-
-
 
 int agregarAlumno(std::string nombres[], double espanol[], double matematicas[],
                   double programas[], int total, std::string nombre,
@@ -109,6 +107,3 @@ int agregarAlumno(std::string nombres[], double espanol[], double matematicas[],
     programas[total] = calProgramas;
     return total + 1;
 }
-
-
-
