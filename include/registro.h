@@ -79,7 +79,7 @@ void mostrarLista(const std::string nombres[],
 bool calificacionValida(double calificacion) {
     return calificacion >= CALIFICACION_MINIMA && calificacion <= CALIFICACION_MAXIMA;
     void mostrarLista(std::string nombres[], double espanol[], double matematicas[],
-                  double programas[], int total) {
+                  double programas[], int total) { 
     if (total == 0) {
         std::cout << "No hay alumnos registrados.\n";
         return;
