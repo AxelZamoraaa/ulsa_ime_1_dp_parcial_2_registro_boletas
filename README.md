@@ -77,7 +77,51 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 Receta en pseudocódigo del programa principal: el menú y cómo se conecta con cada bloque.
 
 ```
-[Inserta aquí tu respuesta]
+INICIO
+    nombres[6], esp[6], mat[6], dp[6]
+    total ← 0
+
+    REPETIR
+        MOSTRAR menú:
+            1. Capturar alumno
+            2. Mostrar lista
+            3. Promedio por alumno
+            4. Aprobados/reprobados
+            5. Salir
+            OTRO: "Opción no válida"
+
+CAPTURAR
+    SI total == 6 → "Lista llena", regresar
+    REPETIR nom ← leerCadena() HASTA QUE nom no esté vacío
+    esp[total] ← pedirCal("Español")
+    mat[total] ← pedirCal("Matemáticas")
+    dp[total]  ← pedirCal("Diseño de Programas")
+    total ← total + 1
+
+PEDIRCAL(materia)
+    REPETIR
+        cal ← leerDecimal()
+        SI cal < 0 O cal > 10 → "Calificación inválida"
+    HASTA QUE cal esté entre 0 y 10
+    REGRESAR cal
+
+MOSTRAR LISTA
+    SI total == 0 → "Lista vacía", regresar
+    PARA i DESDE 0 HASTA total-1
+        MOSTRAR nombres[i], esp[i], mat[i], dp[i]
+
+PROMEDIOS
+    SI total == 0 → "Lista vacía", regresar
+    PARA i DESDE 0 HASTA total-1
+        MOSTRAR nombres[i], (esp[i] + mat[i] + dp[i]) / 3
+
+APROBADOS
+    SI total == 0 → "Lista vacía", regresar
+    PARA i DESDE 0 HASTA total-1
+        SI esp[i] >= 7 Y mat[i] >= 7 Y dp[i] >= 7
+            MOSTRAR nombres[i], "APROBADO"
+        SINO
+            MOSTRAR nombres[i], "REPROBADO"
 ```
 
 ## 8. Documentación individual
