@@ -7,12 +7,8 @@
 | Bloque | Matrícula | Nombre | Usuario de GitHub | Opción elegida |
 | --- | --- | --- | --- | --- |
 <<<<<<< HEAD
-| 1 | [ 26295 | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Captura |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-=======
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Captura |
+| 1 |  26295 | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Captura |
 | 2 | 26100 | Regina Murillo Arellano | reginamurilloa | Estadisticas |
->>>>>>> 491a155226e551dedd7994a680221e9f9f00f0c7
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
