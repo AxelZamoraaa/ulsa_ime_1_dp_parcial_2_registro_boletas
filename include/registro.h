@@ -96,6 +96,7 @@ bool calificacionValida(double calificacion) {
 }
 
 
+
 int agregarAlumno(std::string nombres[], double espanol[], double matematicas[],
                   double programas[], int total, std::string nombre,
                   double calEspanol, double calMatematicas, double calProgramas) {
