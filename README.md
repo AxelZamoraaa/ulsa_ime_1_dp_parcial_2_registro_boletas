@@ -38,18 +38,19 @@ Escriban las reglas que su programa sigue y que el cálculo a mano necesita. Por
 1.- Cada calificación es un número de 0 a 10, con decimales. El nombre no puede quedar vacío. Si el dato es inválido, se vuelve a pedir
 
 
+
 ## 5. Datos del escenario
 
 Los 6 alumnos que capturan en el escenario obligatorio.
 
 | # | Nombre | Español | Matemáticas | Diseño de Programas |
 | --- | --- | --- | --- | --- |
-| 1 | Ana | 9 | 8 | 10 |
-| 2 | Luis | 7 | 6 | 8 |
-| 3 | Marta | 6 | 5 | 7 |
-| 4 | Jorge | 8 | 7 | 9 |
-| 5 | Sofia | 10 | 9 | 8 |
-| 6 | Raul | 5 | 7 | 6 |
+| 1 | Ana | 9.0 | 8.0 | 10.0 |
+| 2 | Luis | 7.0 | 6.0 | 8.0 |
+| 3 | Marta | 6.0 | 5.0 | 7.0 |
+| 4 | Jorge | 8.0 | 7.0 | 9.0 |
+| 5 | Sofia | 10.0 | 9.0 | 8.0 |
+| 6 | Raul | 5.0 | 7.0 | 6.0 |
 
 ## 6. Cálculo a mano
 
@@ -57,7 +58,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 | Bloque | Valores elegidos | Resultado esperado |
 | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 | [6 alumnos, un intento con 11 en español, y un séptimo intento] | [6 registrados, 1 rechazo por calificación y 1 aviso de lista llena] |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
@@ -67,7 +68,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 **¿La salida del programa coincidió con el cálculo a mano? Si no, ¿qué corrigieron?**
 
-[Inserta aquí tu respuesta]
+[Si]
 
 ## 7. Receta del menú
 
@@ -141,4 +142,4 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 Si cambiaron algo de la interfaz de `include/registro.h` (una constante, un parámetro, una función), expliquen qué cambiaron y por qué. Si no cambiaron nada, escriban "Sin cambios".
 
-[Inserta aquí tu respuesta]
+[sin cambios]
