@@ -67,7 +67,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 **¿La salida del programa coincidió con el cálculo a mano? Si no, ¿qué corrigieron?**
 
-[Inserta aquí tu respuesta]
+si
 
 ## 7. Receta del menú
 
@@ -139,4 +139,4 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 Si cambiaron algo de la interfaz de `include/registro.h` (una constante, un parámetro, una función), expliquen qué cambiaron y por qué. Si no cambiaron nada, escriban "Sin cambios".
 
-[Inserta aquí tu respuesta]
+sin cambios
