@@ -2,8 +2,8 @@
 
 **Nombre:** Sergio Axel Zamora Coronado
 **Matrícula:** 26295
-**Bloque y opción elegida:** captura.h
-**Archivo de código:** 
+**Bloque y opción elegida:** captura
+**Archivo de código:** Capturas.h
 
 ## 2. Propósito
 
