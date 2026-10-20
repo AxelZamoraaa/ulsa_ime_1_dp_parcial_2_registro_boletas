@@ -1,9 +1,9 @@
 ## 1. Autor
 
-**Nombre:** [Inserta aquí tu respuesta]
-**Matrícula:** [Inserta aquí tu respuesta]
-**Bloque y opción elegida:** [Inserta aquí tu respuesta]
-**Archivo de código:** [Inserta aquí tu respuesta]
+**Nombre:** Sergio Axel Zamora Coronado
+**Matrícula:** 26295
+**Bloque y opción elegida:** captura
+**Archivo de código:** Capturas.h
 
 ## 2. Propósito
 

@@ -6,14 +6,13 @@
 
 | Bloque | Matrícula | Nombre | Usuario de GitHub | Opción elegida |
 | --- | --- | --- | --- | --- |
-<<<<<<< HEAD
 | 1 |  26295 | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Captura |
 | 2 | 26100 | Regina Murillo Arellano | reginamurilloa | Estadisticas |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | boleta |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 
-<!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
+
 
 ## 2. Opciones del menú
 
@@ -67,7 +66,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 **¿La salida del programa coincidió con el cálculo a mano? Si no, ¿qué corrigieron?**
 
-[Inserta aquí tu respuesta]
+si
 
 ## 7. Receta del menú
 
@@ -133,10 +132,10 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 
-<!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
+
 
 ## 9. Cambios a la interfaz
 
 Si cambiaron algo de la interfaz de `include/registro.h` (una constante, un parámetro, una función), expliquen qué cambiaron y por qué. Si no cambiaron nada, escriban "Sin cambios".
 
-[Inserta aquí tu respuesta]
+sin cambios
