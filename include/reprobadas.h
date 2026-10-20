@@ -3,10 +3,10 @@
 #include <string>
 #include "registro.h"
  
-// Constante propia del bloque
+
 const std::string TITULO_REPROBADAS = "--- MATERIAS REPROBADAS POR ALUMNO ---";
  
-// Bloque 5: lista a quienes reprueban al menos una materia y cuantas.
+
 void mostrarReprobadas(std::string nombres[], double espanol[], double matematicas[],
                        double programas[], int total) {
     if (total == 0) {
@@ -15,10 +15,10 @@ void mostrarReprobadas(std::string nombres[], double espanol[], double matematic
     }
  
     std::cout << TITULO_REPROBADAS << "\n";
-    int alumnosConReprobadas = 0;  // contador de alumnos
+    int alumnosConReprobadas = 0;  
  
     for (int i = 0; i < total; i++) {
-        int reprobadas = 0;        // contador por alumno
+        int reprobadas = 0;
         if (espanol[i] < CALIFICACION_APROBATORIA) {
             reprobadas++;
         }
@@ -34,7 +34,7 @@ void mostrarReprobadas(std::string nombres[], double espanol[], double matematic
         }
     }
  
-    // Decision multiple: mensaje final
+    
     if (alumnosConReprobadas == 0) {
         std::cout << "Ningun alumno reprobo materias.\n";
     } else if (alumnosConReprobadas == total) {
