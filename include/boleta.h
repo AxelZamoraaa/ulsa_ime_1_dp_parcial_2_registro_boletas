@@ -4,10 +4,8 @@
 #include "utilerias.h"
 #include "registro.h"
  
-// Constante propia del bloque
 const int MATERIAS_BOLETA = 3;
  
-// Bloque 4: busca un alumno por nombre y muestra su boleta.
 void mostrarBoleta(std::string nombres[], double espanol[], double matematicas[],
                    double programas[], int total) {
     if (total == 0) {
@@ -17,7 +15,6 @@ void mostrarBoleta(std::string nombres[], double espanol[], double matematicas[]
  
     std::string buscado = leerCadena("Nombre a buscar: ");
  
-    // Busqueda: -1 significa "no encontrado"
     int posicion = -1;
     for (int i = 0; i < total; i++) {
         if (nombres[i] == buscado) {
@@ -30,7 +27,7 @@ void mostrarBoleta(std::string nombres[], double espanol[], double matematicas[]
         return;
     }
  
-    // Contador de materias reprobadas
+
     int reprobadas = 0;
     if (espanol[posicion] < CALIFICACION_APROBATORIA) {
         reprobadas++;
@@ -45,7 +42,6 @@ void mostrarBoleta(std::string nombres[], double espanol[], double matematicas[]
     double promedio = (espanol[posicion] + matematicas[posicion] + programas[posicion])
                       / MATERIAS_BOLETA;
  
-    // Decision multiple: estado
     std::string estado;
     if (reprobadas == 0) {
         estado = "Aprobado";
