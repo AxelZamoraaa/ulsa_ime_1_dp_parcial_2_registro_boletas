@@ -9,7 +9,7 @@
 | 1 |  26295 | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Captura |
 | 2 | 26100 | Regina Murillo Arellano | reginamurilloa | Estadisticas |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | boleta |
+| 4 | [26076] | [Erick Aguilar Martinez] | [Erick1867] | boletas |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 
 
@@ -57,7 +57,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 | Bloque | Valores elegidos | Resultado esperado |
 | --- | --- | --- |
 | 1 | 6 alumnos, un intento con 11 en español y un séptimo intento | 6 registrados, 1 rechazado por calificación y 1 aviso de lista llena |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 2 | 6 alumnos | Español: 7.5, Matematicas: 7, Diseno de Programas: 8, CaliAlta:  Diseno de Programas: 8, CaliBaja Matematicas: 7 |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | Buscar Marta y Hugo  | Marta: promedio 6.0, 2 materias reprobadas, Reprobado. Hugo: no encontrado |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
