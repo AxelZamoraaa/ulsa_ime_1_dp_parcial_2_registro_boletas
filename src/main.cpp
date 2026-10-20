@@ -52,7 +52,7 @@ int main() {
             case 2:
                 mostrarLista(nombres, espanol, matematicas, programas, total);
                 break;
-            case 3:
+           case 3:
                 mostrarEstadisticas(nombres, espanol, matematicas, programas, total);
                 break;
             case 4:
