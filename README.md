@@ -57,10 +57,10 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 | Bloque | Valores elegidos | Resultado esperado |
 | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 | 6 alumnos, un intento con 11 en español y un séptimo intento | 6 registrados, 1 rechazado por calificación y 1 aviso de lista llena |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [| 4 (Persona 4) | Buscar Marta y Hugo ] | [Marta: promedio 6.0, 2 materias reprobadas, Reprobado. Hugo: no encontrado |] |
+| 4 | Buscar Marta y Hugo  | Marta: promedio 6.0, 2 materias reprobadas, Reprobado. Hugo: no encontrado |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
