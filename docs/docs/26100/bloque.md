@@ -51,7 +51,55 @@ Explica cada decisión y por qué la tomaste.
 Tu receta en pseudocódigo, escrita antes de programar.
 
 ```
-[Inserta aquí tu respuesta]
+mostrarEstadisticas(nombres, espanol, matematicas, programas, total)
+    constante TITULO_ESTADISTICAS ← "ESTADISTICAS POR MATERIA"
+
+    SI total == 0
+        MOSTRAR "No hay alumnos registrados."
+        regresar
+
+    sumaEspanol ← 0
+    sumaMatematicas ← 0
+    sumaProgramas ← 0
+
+    PARA i DESDE 0 HASTA total-1
+        sumaEspanol ← sumaEspanol + espanol[i]
+        sumaMatematicas ← sumaMatematicas + matematicas[i]
+        sumaProgramas ← sumaProgramas + programas[i]
+
+    // Promedio del salón por materia
+    promEspanol ← sumaEspanol / total
+    promMatematicas ← sumaMatematicas / total
+    promProgramas ← sumaProgramas / total
+
+    // Materia más alta y su promedio
+    SI promEspanol >= promMatematicas Y promEspanol >= promProgramas
+        masAlta ← "Espanol"
+        promAlta ← promEspanol
+    SINO SI promMatematicas >= promProgramas
+        masAlta ← "Matematicas"
+        promAlta ← promMatematicas
+    SINO
+        masAlta ← "Diseno de Programas"
+        promAlta ← promProgramas
+
+    // Materia más baja y su promedio
+    SI promEspanol <= promMatematicas Y promEspanol <= promProgramas
+        masBaja ← "Espanol"
+        promBaja ← promEspanol
+    SINO SI promMatematicas <= promProgramas
+        masBaja ← "Matematicas"
+        promBaja ← promMatematicas
+    SINO
+        masBaja ← "Diseno de Programas"
+        promBaja ← promProgramas
+
+    MOSTRAR TITULO_ESTADISTICAS
+    MOSTRAR "Espanol:", promEspanol
+    MOSTRAR "Matematicas:", promMatematicas
+    MOSTRAR "Diseno de Programas:", promProgramas
+    MOSTRAR "Mas alta:", masAlta, "(" promAlta ")"
+    MOSTRAR "Mas baja:", masBaja, "(" promBaja ")"
 ```
 
 **¿Probaste tu receta a mano con los datos del escenario? ¿Qué corregiste?**
