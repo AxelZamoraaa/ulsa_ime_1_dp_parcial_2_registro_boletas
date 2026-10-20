@@ -44,12 +44,12 @@ Los 6 alumnos que capturan en el escenario obligatorio.
 
 | # | Nombre | Español | Matemáticas | Diseño de Programas |
 | --- | --- | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 | Ana | 9.0 | 8.0 | 10.0 |
+| 2 | Luis | 7.0 | 6.0 | 8.0 |
+| 3 | Marta | 6.0 | 5.0 | 7.0 |
+| 4 | Jorge | 8.0 | 7.0 | 9.0 |
+| 5 | Sofia | 10.0 | 9.0 | 8.0 |
+| 6 | Raul | 5.0 | 7.0 | 6.0 |
 
 ## 6. Cálculo a mano
 
