@@ -11,7 +11,7 @@
 | 3 | [26141] | [Alan Rodrigo Guardiola Martinez] | [AlanG2436] | [Aprobados y reprobados]|
 | 4 | [Inserta aquí tu respuesta] | Erick | [Inserta aquí tu respuesta] | Boleta  |
 | 5 | [Inserta aquí tu respuesta] | Pablo | [Inserta aquí tu respuesta] | Materias reprobadas |
-| 6 | [Inserta aquí tu respuesta] | Ferrer | [Inserta aquí tu respuesta] | Materias reprobadas |
+| 6 | [Inserta aquí tu respuesta] | Em Ferrer | [Inserta aquí tu respuesta] | Materias reprobadas |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
