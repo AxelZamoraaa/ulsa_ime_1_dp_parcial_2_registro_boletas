@@ -58,10 +58,11 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 | Bloque | Valores elegidos | Resultado esperado |
 | --- | --- | --- |
 | 1 | [6 alumnos, un intento con 11 en español, y un séptimo intento] | [6 registrados, 1 rechazo por calificación y 1 aviso de lista llena] |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 2 | 6 alumnos: Ana, Luis, Marta, Jorge, Sofia y Raul| Espanol: 7.5, Matematicas: 7, Diseno de Programas: 8, Mas alta: Diseno de Programas 8, Mas baja: Matematicas 7 |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 

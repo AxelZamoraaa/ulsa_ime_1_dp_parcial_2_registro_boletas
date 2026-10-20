@@ -24,27 +24,32 @@ Explica cada decisión y por qué la tomaste.
 
 **¿Qué funciones tiene tu bloque y qué hace cada una?**
 
-[Inserta aquí tu respuesta]
+mostrarEstadisticas, hace que el reporte valide que haya alumnos, suma las calificaciones, calcula promedios e imprime resultados. 
 
 **¿Qué ciclo usaste y por qué ese?**
 
-[Inserta aquí tu respuesta]
+for con i desde 0 a total -1; lo use porqeu es las veces que se repite por alumno registrado
+for; junta lineas y condiciones 
 
 **¿Qué acumuladores o contadores usaste y con qué valor inician?**
 
-[Inserta aquí tu respuesta]
+sumaEspanol, sumaMatematicas, sumaProgramas todos estos incian en 0, porque si se usa otro numero los promedios saldrian mal
+i; el arreglo
+masAlta, masBaja, promAlta, promBaja; para dar los valores de los promedios de las más alta y la más baja 
 
 **¿Dónde está tu decisión múltiple y qué casos cubre?**
 
-[Inserta aquí tu respuesta]
+if, else; comparan los promedios de las tres materias
+<=, >=; para identificar la metaria más alta o más baja en promedio
+
 
 **¿Qué constantes definiste y por qué son constantes?**
 
-[Inserta aquí tu respuesta]
+TITULO_ESTADISTICAS; es constante porque nunca cambia durante la ejecución del codigo 
 
 **¿Qué casos de rechazo maneja tu bloque y qué mensaje muestra en cada uno?**
 
-[Inserta aquí tu respuesta]
+Si alumnos = 0; rechaza ya que no puede sacar un promedio 
 
 ## 5. Receta
 
@@ -104,7 +109,16 @@ mostrarEstadisticas(nombres, espanol, matematicas, programas, total)
 
 **¿Probaste tu receta a mano con los datos del escenario? ¿Qué corregiste?**
 
-[Inserta aquí tu respuesta]
+Sí, con los 6 alumnos del escenario (Ana, Luis, Marta, Jorge, Sofia y Raul), total = 6:
+
+Español: 9 + 7 + 6 + 8 + 10 + 5 = 45, entre 6 = 7.5
+Matemáticas: 8 + 6 + 5 + 7 + 9 + 7 = 42, entre 6 = 7.0
+Diseño de Programas: 10 + 8 + 7 + 9 + 8 + 6 = 48, entre 6 = 8.0
+
+Más alta: Español (7.5) no es >= 8.0; Matemáticas (7.0) no es >= 8.0; entra al SINO: Diseño de Programas, con promedio 8.0.
+Más baja: Español (7.5) no es <= 7.0; Matemáticas (7.0) <= 8.0, así que: Matemáticas, con promedio 7.0.
+Resultado; Mas alta: Diseno de Programas (8), Mas baja: Matematicas (7).
+
 
 ## 6. Bitácora de dudas y errores
 
