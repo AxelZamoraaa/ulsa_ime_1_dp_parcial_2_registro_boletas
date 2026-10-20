@@ -6,57 +6,6 @@
 
 | Bloque | Matrícula | Nombre | Usuario de GitHub | Opción elegida |
 | --- | --- | --- | --- | --- |
-<<<<<<< HEAD
-| 1 |  26295 | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Captura |
-| 2 | 26100 | Regina Murillo Arellano | reginamurilloa | Estadisticas |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | boleta |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-
-<!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
-
-## 2. Opciones del menú
-
-Escriban las opciones del menú en el orden en que aparecen en el programa.
-
-[Inserta aquí tu respuesta]
-
-## 3. Cómo compilar y ejecutar
-
-Desde la carpeta del proyecto:
-
-```
-g++ -Wall -Wextra -std=c++17 -Iinclude src/main.cpp -o boletas
-./boletas
-```
-
-## 4. Reglas del programa
-
-Escriban las reglas que su programa sigue y que el cálculo a mano necesita. Por ejemplo: qué pasa cuando hay un empate, cómo se busca un nombre, con cuántos decimales se imprime.
-
-1.- Cada calificación es un número de 0 a 10, con decimales. El nombre no puede quedar vacío. Si el dato es inválido, se vuelve a pedir
-
-4.- El promedio es la suma de las tres calificaciones entre 3, un alumno está aprobado solo si aprueba las tres, la búsqueda de nombre en la boleta es exacta y distingue mayúsculas de minúsculas
-
-## 5. Datos del escenario
-
-Los 6 alumnos que capturan en el escenario obligatorio.
-
-| # | Nombre | Español | Matemáticas | Diseño de Programas |
-| --- | --- | --- | --- | --- |
-| 1 | Ana | 9.0 | 8.0 | 10.0 |
-| 2 | Luis | 7.0 | 6.0 | 8.0 |
-| 3 | Marta | 6.0 | 5.0 | 7.0 |
-| 4 | Jorge | 8.0 | 7.0 | 9.0 |
-| 5 | Sofia | 10.0 | 9.0 | 8.0 |
-| 6 | Raul | 5.0 | 7.0 | 6.0 |
-
-## 6. Cálculo a mano
-
-Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque individual. Lo que imprime el programa debe coincidir.
-
-| Bloque | Valores elegidos | Resultado esperado |
-| --- | --- | --- |
 | 1 | 6 alumnos, un intento con 11 en español y un séptimo intento | 6 registrados, 1 rechazado por calificación y 1 aviso de lista llena |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
