@@ -15,15 +15,15 @@
 #include "utilerias.h"
 #include "registro.h"
  
-// Un include por bloque individual
-#include "captura.h"        // Bloque 1 - Persona 1
-#include "estadisticas.h"   // Bloque 2 - Persona 2
-#include "aprobados.h"      // Bloque 3 - Persona 3
-#include "boleta.h"         // Bloque 4 - Persona 4
-#include "reprobadas.h"     // Bloque 5 - Persona 5
+
+#include "captura.h"        
+#include "estadisticas.h"   
+#include "aprobados.h"      
+#include "boleta.h"         
+#include "reprobadas.h"     
  
 int main() {
-    // Cuatro arreglos paralelos y el total (sin variables globales)
+   
     std::string nombres[MAX_ALUMNOS];
     double espanol[MAX_ALUMNOS] = {0};
     double matematicas[MAX_ALUMNOS] = {0};
@@ -32,7 +32,7 @@ int main() {
  
     int opcion;
  
-    // Muestra los decimales con un solo digito (9.0, 7.5, ...)
+    
     std::cout << std::fixed << std::setprecision(1);
  
     do {
