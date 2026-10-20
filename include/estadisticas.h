@@ -7,8 +7,10 @@
 
 const std::string TITULO_ESTADISTICAS = "--- ESTADISTICAS POR MATERIA ---";
 
+// Promedio por materia, y materia mas alta y mas baja con su promedio.
 void mostrarEstadisticas(std::string nombres[], double espanol[],
                          double matematicas[], double programas[], int total) {
+    (void)nombres;  // este reporte no usa los nombres
 
     if (total == 0) {
         std::cout << "No hay alumnos registrados.\n";
@@ -31,32 +33,34 @@ void mostrarEstadisticas(std::string nombres[], double espanol[],
     double promMatematicas = sumaMatematicas / total;
     double promProgramas = sumaProgramas / total;
 
-    // Encontrar la materia con el promedio mas alto
-    std::string masAlta = "Espanol";
-    double mayor = promEspanol;
+    // Materia con el promedio mas alto
+    std::string masAlta;
+    double promAlta;
 
-    if (promMatematicas > mayor) {
-        mayor = promMatematicas;
+    if (promEspanol >= promMatematicas && promEspanol >= promProgramas) {
+        masAlta = "Espanol";
+        promAlta = promEspanol;
+    } else if (promMatematicas >= promProgramas) {
         masAlta = "Matematicas";
-    }
-
-    if (promProgramas > mayor) {
-        mayor = promProgramas;
+        promAlta = promMatematicas;
+    } else {
         masAlta = "Diseno de Programas";
+        promAlta = promProgramas;
     }
 
-    // Encontrar la materia con el promedio mas bajo
-    std::string masBaja = "Espanol";
-    double menor = promEspanol;
+    // Materia con el promedio mas bajo
+    std::string masBaja;
+    double promBaja;
 
-    if (promMatematicas < menor) {
-        menor = promMatematicas;
+    if (promEspanol <= promMatematicas && promEspanol <= promProgramas) {
+        masBaja = "Espanol";
+        promBaja = promEspanol;
+    } else if (promMatematicas <= promProgramas) {
         masBaja = "Matematicas";
-    }
-
-    if (promProgramas < menor) {
-        menor = promProgramas;
+        promBaja = promMatematicas;
+    } else {
         masBaja = "Diseno de Programas";
+        promBaja = promProgramas;
     }
 
     // Mostrar los resultados
@@ -64,6 +68,6 @@ void mostrarEstadisticas(std::string nombres[], double espanol[],
     std::cout << "Espanol: " << promEspanol << "\n";
     std::cout << "Matematicas: " << promMatematicas << "\n";
     std::cout << "Diseno de Programas: " << promProgramas << "\n";
-    std::cout << "Mas alta: " << masAlta << "\n";
-    std::cout << "Mas baja: " << masBaja << "\n";
+    std::cout << "Mas alta: " << masAlta << " (" << promAlta << ")\n";
+    std::cout << "Mas baja: " << masBaja << " (" << promBaja << ")\n";
 }
