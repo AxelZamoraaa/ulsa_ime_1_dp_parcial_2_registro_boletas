@@ -9,11 +9,19 @@
 <<<<<<< HEAD
 | 1 |  26295 | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Captura |
 | 2 | 26100 | Regina Murillo Arellano | reginamurilloa | Estadisticas |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | boleta |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 3 | [26141] | [Alan Rodrigo Guardiola Martinez] | [AlanG2436] | [Aprobados y reprobados]|
+| 4 | [Inserta aquí tu respuesta] | Erick | [Inserta aquí tu respuesta] | Boleta  |
+| 5 | [Inserta aquí tu respuesta] | Pablo | [Inserta aquí tu respuesta] | Materias reprobadas |
+| 6 | [26102] | Emiliano Ferrer de la Cruz | [emiliano.ferrer-eng] |  main.cpp |
+=======
+| 1 |  26295 | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Captura.h |
+| 2 | 26100 | Regina Murillo Arellano | reginamurilloa | Estadisticas.h |
+| 3 | [26141] | [Alan Rodrigo Guardiola Martinez] | [AlanG2436] | [Aprobados.h ]|
+| 4 | [26076] | Erick Aguilar Martinez | [Erick1867] | Boleta.h  |
+| 5 | [Inserta aquí tu respuesta] | Pablo  | [Inserta aquí tu respuesta] | reprobados.h |
+| 6 | [26102] | Ferrer | [emiliano.ferrer-eng] | main.cpp |
+>>>>>>> aa470d157580c636ac6f4be11629d7f42667fe16
 
-<!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
 ## 2. Opciones del menú
 
@@ -36,7 +44,7 @@ Escriban las reglas que su programa sigue y que el cálculo a mano necesita. Por
 
 1.- Cada calificación es un número de 0 a 10, con decimales. El nombre no puede quedar vacío. Si el dato es inválido, se vuelve a pedir
 
-4.- El promedio es la suma de las tres calificaciones entre 3, un alumno está aprobado solo si aprueba las tres, la búsqueda de nombre en la boleta es exacta y distingue mayúsculas de minúsculas
+
 
 ## 5. Datos del escenario
 
@@ -57,17 +65,25 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 | Bloque | Valores elegidos | Resultado esperado |
 | --- | --- | --- |
+<<<<<<< HEAD
 | 1 | 6 alumnos, un intento con 11 en español y un séptimo intento | 6 registrados, 1 rechazado por calificación y 1 aviso de lista llena |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | Buscar Marta y Hugo  | Marta: promedio 6.0, 2 materias reprobadas, Reprobado. Hugo: no encontrado |
+=======
+| 1 | [6 alumnos, un intento con 11 en español, y un séptimo intento] | [6 registrados, 1 rechazo por calificación y 1 aviso de lista llena] |
+| 2 | 6 alumnos: Ana, Luis, Marta, Jorge, Sofia y Raul| Espanol: 7.5, Matematicas: 7, Diseno de Programas: 8, Mas alta: Diseno de Programas 8, Mas baja: Matematicas 7 |
+| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+>>>>>>> a05fb5c42a4f4c881a7f7692c6ed92e3a3c7e610
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
 **¿La salida del programa coincidió con el cálculo a mano? Si no, ¿qué corrigieron?**
 
-[Inserta aquí tu respuesta]
+[Si]
 
 ## 7. Receta del menú
 
@@ -132,6 +148,8 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
@@ -139,4 +157,4 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 Si cambiaron algo de la interfaz de `include/registro.h` (una constante, un parámetro, una función), expliquen qué cambiaron y por qué. Si no cambiaron nada, escriban "Sin cambios".
 
-[Inserta aquí tu respuesta]
+[sin cambios]
