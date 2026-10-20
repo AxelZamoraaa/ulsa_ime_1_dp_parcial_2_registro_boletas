@@ -1,1 +1,7 @@
 //dar el promedio por materia del salon materia mas alta en calis el promedio y materia mas baja
+
+#pragma once
+#include <iostream>
+#include <string>
+#include "registro.h"
+
