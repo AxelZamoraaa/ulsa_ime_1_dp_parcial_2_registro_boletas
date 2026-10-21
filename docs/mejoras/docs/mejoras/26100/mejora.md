@@ -1,19 +1,33 @@
-Propuesta de mejora elaborada por: [Inserta aquí tu respuesta]
+
+Propuesta de mejora elaborada por: Regina Murillo 
 
 **Matrícula:** 26100
-**Título de la propuesta:** [Inserta aquí tu respuesta]
+**Título de la propuesta:** Eliminar alumno, corregir errores de captura sin reiniciar el programa
 
 ## 1. Impacto
 
 ¿Es una mejora o una corrección? ¿Qué problema resuelve o qué agrega, y a quién beneficia?
 
-[Inserta aquí tu respuesta]
+Es una mejora, ya que al momento de capturar un alumno, si por error escribes alguna calificación mal, no hay manera de quitarlo y la unica manera de solucionar es volver a empezar el programa. 
+
+La propuesta de la opción Eliminar alumno en el menu, buscaria al alumno por nombre, pediria confirmación de eliminarlo y lo quitaria sin dejar una afectación en el codigo, de esta manera puedes volver a capturar al alumno con los datos correctos, sin necesidad de reiniciar el codigo y peder el avance. 
+
+Beneficiaria al maestro ya que podria volver a repetir las calificaciones en caso de un error. 
 
 ## 2. Qué implica en el diseño
 
 ¿Qué partes de la solución cambian (arreglos, constantes, funciones, menú)? Justifica cada cambio.
 
-[Inserta aquí tu respuesta]
+
+Se agrega una función nueva, eliminarAlumno. Busca al alumno por nombre, pide confirmación y lo quita. Por qué: no hay forma de quitar a un alumno. Se hace en una función.
+
+Al eliminar, se recorren los datos en los cuatro arreglos a la vez. Los alumnos que están después del eliminado suben un lugar, y al final el total baja en 1. Ejemplo con el escenario: si eliminas a Marta (posición 3 de la lista), Jorge, Sofia y Raul suben un lugar y el total pasa de 6 a 5.
+Si se moviera solo uno, las calificaciones quedarían con el nombre equivocado. Y sin huecos, los reportes siguen funcionando igual.
+
+Antes de eliminar se pide confirmación, SI o NO, si deseas realizar esa acción cualquier opción que no sea 1 o 2 no borra a nadie para que un error de teclado no borre a un alumno por accidente.
+
+El menú de main.cpp tiene tres cambios pequeños: se agrega case 7 para eliminar alumno, "Salir" pasa a ser case 8 para que el usuario pueda llegar a la opción nueva sin perder todo.
+
 
 ## 3. Receta
 
