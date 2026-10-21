@@ -11,6 +11,7 @@
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [26076] | [Erick Aguilar Martinez] | [Erick1867] | boletas |
 | 5 | [26165] | [Pablo Mussa] | [Pablomussa] | [reprobadas] |
+| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 
 
 
@@ -41,6 +42,8 @@ Escriban las reglas que su programa sigue y que el cálculo a mano necesita. Por
 
 1.- Cada calificación es un número de 0 a 10, con decimales. El nombre no puede quedar vacío. Si el dato es inválido, se vuelve a pedir
 
+2.- 2.- El promedio de cada materia es la suma de sus calificaciones entre el total de alumnos registrados. Si no hay alumnos registrados, el reporte muestra "No hay alumnos registrados." y regresa al menú.
+
 4.- El promedio es la suma de las tres calificaciones entre 3, un alumno está aprobado solo si aprueba las tres, la búsqueda de nombre en la boleta es exacta y distingue mayúsculas de minúsculas
 
 5.- Los decimales se imprimen con un dígito (por ejemplo, 9.0). Ningún reporte funciona con la lista vacía: avisa y regresa al menú. El reporte de reprobadas solo lista a quienes reprueban al menos una materia
@@ -69,6 +72,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | Buscar Marta y Hugo  | Marta: promedio 6.0, 2 materias reprobadas, Reprobado. Hugo: no encontrado |
 | 5 | [Calificaciones menores a 7.0] | [Luis 1, Marta 2, Raul 2; total 3 alumnos] |
+| 6 | [] | [] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
@@ -99,7 +103,10 @@ INICIO
   MIENTRAS opcion sea distinta de 7
 FIN
 
-## 8. Documentación individual
+
+
+## 8. Documentación individual 
+
 
 Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
@@ -110,6 +117,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 
 
 
