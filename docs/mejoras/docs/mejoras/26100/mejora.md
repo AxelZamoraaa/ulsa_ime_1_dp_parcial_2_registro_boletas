@@ -86,7 +86,6 @@ INICIO
     // Se recorren los alumnos posteriores un lugar hacia atras, en los cuatro arreglos.
     // Ejemplo del escenario: al eliminar a Marta (posicion 2), Jorge, Sofia y Raul
     // suben un lugar y el total pasa de 6 a 5.
-    
     PARA i DESDE posicion HASTA total - 2
         nombres[i] = nombres[i + 1]
         espanol[i] = espanol[i + 1]
