@@ -109,7 +109,7 @@ FUNCION capturarAlumno(arreglos, total)
 
 **¿Probaste tu receta a mano con los datos del escenario? ¿Qué corregiste?**
 
-[Inserta aquí tu respuesta]
+Si, probé con un nombre válido y con calificaciones de -3, 11 y 8.5: las dos primeras se rechazan con su mensaje y la tercera se acepta. También probé un nombre vacío y la lista llena
 
 ## 6. Bitácora de dudas y errores
 
