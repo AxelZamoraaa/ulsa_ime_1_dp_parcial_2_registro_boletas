@@ -10,81 +10,67 @@ Puede tocar cualquier parte de la solución del equipo y se resuelve con los tem
 Dentro de un equipo no puede haber dos propuestas iguales.
 -->
 
-Propuesta de mejora elaborada por: [Inserta aquí tu respuesta]
+Propuesta de mejora elaborada por: [Erick Aguilar]
 
 **Matrícula:** [26076]
-**Título de la propuesta:** [Mostrar en la boleta cuáles materias reprobó el alumno]
+**Título de la propuesta:** [Ranking de alumnos ordenado por promedio]
 
 1. Impacto
 
-Es una mejora, no una corrección. Ahorita la boleta dice cuántas materias reprobó el alumno (“Materias reprobadas: 2”), pero no dice cuáles. Si el maestro quiere saber en qué materias anda mal tiene que fijarse en las tres calificaciones y comparar contra la aprobatoria él mismo, que es justo lo que el programa debería hacer por uno.
+Es una mejora. Ahorita el programa te deja ver la lista de alumnos en el orden en que se capturaron, y las estadísticas por materia dan promedios del grupo, pero no hay forma de saber quién es el mejor alumno o quién va hasta abajo sin sacar las cuentas uno mismo. Con esto se agrega una opción “Ranking por promedio” que muestra a todos ordenados del promedio más alto al más bajo.
 
-Con el cambio, la boleta agrega una línea tipo “Reprobo: Matematicas, Diseno de Programas”. Beneficia al maestro o a quien use el programa, que ve de un vistazo en qué debe apoyar al alumno, y también al alumno, porque la boleta le dice que materias tiene que recuperar y no nada mas cuántas.
-
-Tambien deja el código más ordenado. Hoy hay tres if casi idénticos, uno por materia, y con la mejora se juntan en un solo ciclo.
+Le sirve al maestro para ver rápido a quién felicitar y a quién darle seguimiento. No se parece al análisis general de Pablo porque ese junta datos del grupo completo, y esto ordena alumno por alumno. Tampoco toca la opción 6, que solo dice qué materias reprobó cada uno.
 
 2. Qué implica en el diseño
-
-Lo que cambia es solo la función mostrarBoleta, el menú y los demás archivos quedan igual.
-
-Constante nueva NOMBRES_MATERIAS: un arreglo de tres textos (“Espanol”, “Matematicas”, “Diseno de Programas”). Es constante porque los nombres de las materias no cambian mientras corre el programa, y va a la par con MATERIAS_BOLETA, que ya existe. Si algún día agregan una materia se cambian los dos juntos.
-Arreglo local calificaciones[MATERIAS_BOLETA]: se llena con las tres calificaciones del alumno encontrado. Lo necesito porque hoy las notas viven en tres arreglos distintos y no puedo recorrerlas con un ciclo. Con este arreglo la posición 0 es Español, la 1 Matemáticas y la 2 Programas, igual que en NOMBRES_MATERIAS.
-Ciclo for nuevo: reemplaza los tres if de reprobadas y también la suma del promedio. Recorre de 0 a MATERIAS_BOLETA - 1, suma cada calificación a un acumulador suma (inicia en 0) y, si es menor a CALIFICACION_APROBATORIA, sube reprobadas y guarda el nombre de la materia en un texto listaReprobadas. Elegí for porque ya se cuántas vueltas son.
-Variable nueva listaReprobadas: un std::string que inicia vacío. Antes de agregar un nombre reviso si ya tiene algo para ponerle la coma.
-Impresión: si reprobadas > 0 se imprime la línea con las materias, y si no se imprime nada extra para no mostrar una línea vacía.
-
-La decisión múltiple de estado y los casos de rechazo (lista vacía y nombre no encontrado) se quedan como están.
-
+Menú: se agrega la opción 7 “Ranking por promedio” y “Salir” pasa a ser la 8. Hay que mover también el límite de la validación de la opción.
+Función nueva calcularPromedios: recibe los tres arreglos de calificaciones y total, y llena un arreglo promedios con el promedio de cada alumno. Está aparte para no repetir la cuenta que ya hace mostrarBoleta.
+Función nueva mostrarRanking: arma el ranking e imprime. No ordena los arreglos originales, porque si los movemos se descompone la relación entre nombres y calificaciones (la posición de cada alumno es la misma en los cuatro arreglos). En vez de eso crea un arreglo orden con los índices 0, 1, 2... y es ese el que se acomoda.
+Arreglos locales promedios[MAX_ALUMNOS] y orden[MAX_ALUMNOS]: el primero guarda los promedios y el segundo la posición de cada alumno en el ranking. MAX_ALUMNOS es la constante del tamaño de los arreglos; si en registro.h se llama distinto, uso ese nombre.
+Ciclos anidados (burbuja): un for por fuera que repite las pasadas y uno por dentro que compara vecinos. Usé for porque se sabe cuántas vueltas son (depende de total). Si el promedio del de abajo es mayor que el del de arriba, se intercambian en orden. La comparación es estricta (<), así que en un empate se queda primero el que se capturó antes.
+Variable auxiliar: guarda un índice mientras se hace el intercambio.
+Constante MATERIAS_BOLETA: ya existe y se usa para dividir en calcularPromedios.
+Casos de rechazo: si total == 0 imprime “No hay alumnos registrados.” y sale. Con un solo alumno no se rechaza, el ranking sale con una línea nomás.
 3. Receta
-INICIO mostrarBoleta(nombres, espanol, matematicas, programas, total)
-    SI total == 0 ENTONCES
-        imprimir "No hay alumnos registrados."
-        TERMINAR
-    FIN SI
-
-    leer buscado
-    posicion = -1
-
-    PARA i = 0 HASTA total - 1
-        SI nombres[i] == buscado ENTONCES
-            posicion = i
-        FIN SI
-    FIN PARA
-
-    SI posicion == -1 ENTONCES
-        imprimir "No se encontro al alumno", buscado
-        TERMINAR
-    FIN SI
-
-    [NUEVO] calificaciones[0] = espanol[posicion]
-    [NUEVO] calificaciones[1] = matematicas[posicion]
-    [NUEVO] calificaciones[2] = programas[posicion]
-
-    reprobadas = 0
-    [NUEVO] suma = 0
-    [NUEVO] listaReprobadas = ""
-
-    [CAMBIA] PARA m = 0 HASTA MATERIAS_BOLETA - 1       (antes eran tres SI separados)
-    [NUEVO]      suma = suma + calificaciones[m]
-    [CAMBIA]     SI calificaciones[m] < CALIFICACION_APROBATORIA ENTONCES
-                     reprobadas = reprobadas + 1
-    [NUEVO]          SI listaReprobadas no esta vacia ENTONCES
-    [NUEVO]              listaReprobadas = listaReprobadas + ", "
-    [NUEVO]          FIN SI
-    [NUEVO]          listaReprobadas = listaReprobadas + NOMBRES_MATERIAS[m]
-                 FIN SI
-    [CAMBIA] FIN PARA
-
-    [CAMBIA] promedio = suma / MATERIAS_BOLETA          (antes sumaba los tres arreglos)
-
-    SI reprobadas == 0 ENTONCES estado = "Aprobado"
-    SINO SI reprobadas == MATERIAS_BOLETA ENTONCES estado = "Reprobado (reprobo todas)"
-    SINO estado = "Reprobado"
-
-    imprimir boleta completa
-    [NUEVO] SI reprobadas > 0 ENTONCES
-    [NUEVO]     imprimir "Reprobo: ", listaReprobadas
-    [NUEVO] FIN SI
+INICIO menu principal
+    repetir
+        imprimir opciones 1 a 6                         (sin cambios)
+        [NUEVO] imprimir "7. Ranking por promedio"
+        [CAMBIA] imprimir "8. Salir"                    (antes era la 7)
+        leer opcion
+        [CAMBIA] SEGUN opcion                           (ahora llega hasta 8)
+            casos 1 a 6: igual que antes
+            [NUEVO] caso 7: mostrarRanking(nombres, espanol, matematicas, programas, total)
+            [CAMBIA] caso 8: salir
+    hasta que opcion == 8                               (antes 7)
 FIN
 
+[NUEVO] FUNCION calcularPromedios(espanol, matematicas, programas, total, promedios)
+[NUEVO]     PARA i = 0 HASTA total - 1
+[NUEVO]         promedios[i] = (espanol[i] + matematicas[i] + programas[i]) / MATERIAS_BOLETA
+[NUEVO]     FIN PARA
+[NUEVO] FIN FUNCION
+
+[NUEVO] FUNCION mostrarRanking(nombres, espanol, matematicas, programas, total)
+[NUEVO]     SI total == 0 ENTONCES
+[NUEVO]         imprimir "No hay alumnos registrados."
+[NUEVO]         TERMINAR
+[NUEVO]     FIN SI
+[NUEVO]     calcularPromedios(espanol, matematicas, programas, total, promedios)
+[NUEVO]     PARA i = 0 HASTA total - 1
+[NUEVO]         orden[i] = i
+[NUEVO]     FIN PARA
+[NUEVO]     PARA pasada = 0 HASTA total - 2
+[NUEVO]         PARA j = 0 HASTA total - 2 - pasada
+[NUEVO]             SI promedios[orden[j]] < promedios[orden[j + 1]] ENTONCES
+[NUEVO]                 auxiliar = orden[j]
+[NUEVO]                 orden[j] = orden[j + 1]
+[NUEVO]                 orden[j + 1] = auxiliar
+[NUEVO]             FIN SI
+[NUEVO]         FIN PARA
+[NUEVO]     FIN PARA
+[NUEVO]     imprimir "--- RANKING ---"
+[NUEVO]     PARA lugar = 0 HASTA total - 1
+[NUEVO]         imprimir lugar + 1, nombres[orden[lugar]], promedios[orden[lugar]]
+[NUEVO]     FIN PARA
+[NUEVO] FIN FUNCION
 
