@@ -44,6 +44,8 @@ Escriban las reglas que su programa sigue y que el cálculo a mano necesita. Por
 
 2.- 2.- El promedio de cada materia es la suma de sus calificaciones entre el total de alumnos registrados. Si no hay alumnos registrados, el reporte muestra "No hay alumnos registrados." y regresa al menú.
 
+3.- Una materia se aprueba con 7.0 o más. En aprobados, el empate de "materia con más reprobados" se resuelve igual que en estadísticas.
+
 4.- El promedio es la suma de las tres calificaciones entre 3, un alumno está aprobado solo si aprueba las tres, la búsqueda de nombre en la boleta es exacta y distingue mayúsculas de minúsculas
 
 5.- Los decimales se imprimen con un dígito (por ejemplo, 9.0). Ningún reporte funciona con la lista vacía: avisa y regresa al menú. El reporte de reprobadas solo lista a quienes reprueban al menos una materia
@@ -69,6 +71,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 | --- | --- | --- |
 | 1 | 6 alumnos, un intento con 11 en español y un séptimo intento | 6 registrados, 1 rechazado por calificación y 1 aviso de lista llena |
 | 2 | 6 alumnos del escenario: sumas 45.0, 42.0 y 48.0 entre 6| Espanol: 7.5, Matematicas: 7.0, Diseno de Programas: 8.0, Mas alta: Diseno de Programas 8.0, Mas baja: Matematicas 7.0 |
+| 3 | Mínimo para aprobar 7.0 |  Español 4 y 2, Matemáticas 4 y 2, Diseño de Programas 5 y 1; materia con más reprobados: Español |
 | 3 | Calificación mínima aprobatoria: 7.0 | Español: 4 aprobados y 2 reprobados; Matemáticas: 4 y 2; Diseño de Programas: 5 y 1. Más reprobados: Español (empate con Matemáticas, se prioriza Español). |
 | 4 | Buscar Marta y Hugo  | Marta: promedio 6.0, 2 materias reprobadas, Reprobado. Hugo: no encontrado |
 | 5 | Calificaciones menores a 7.0 | Luis 1, Marta 2, Raul 2; total 3 alumnos |
