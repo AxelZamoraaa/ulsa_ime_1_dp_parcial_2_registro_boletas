@@ -95,4 +95,3 @@ Sí, la probé con tres casos. Con Ana (Español 8, Matemáticas 5, Programas 9)
 1	No sabia que valor ponerle a posicion antes del ciclo. Con 0 el programa creía que siempre encontraba a alguien (al primer alumno).	Le puse -1, porque no existe un alumno en esa posición y así puedo saber si el ciclo no encontró nada.
 2	El promedio me salía sin decimales al principio, por ejemplo 7 en vez de 7.33.	Lo guardé en una variable double y los arreglos de calificaciones también son double, así la división ya no se trunca.
 3	Si el usuario escribía un nombre que no estaba, el programa mostraba una boleta con basura.	Agregué el if (posicion == -1) con su return antes de calcular nada
-
