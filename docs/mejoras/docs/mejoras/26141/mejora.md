@@ -1,7 +1,7 @@
 Propuesta de mejora elaborada por: [Alan Rodrigo Guardiola Martinez ]
 
 **Matrícula:** [26141 ]
-**Título de la propuesta:** [Inserta aMostrar todas las materias empatadas con más reprobados]
+**Título de la propuesta:** [Mostrar todas las materias empatadas con más reprobados]
 
 ## 1. Impacto
 
