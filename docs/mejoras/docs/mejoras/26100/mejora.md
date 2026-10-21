@@ -1,13 +1,18 @@
-Propuesta de mejora elaborada por: [Inserta aquí tu respuesta]
+
+Propuesta de mejora elaborada por: Regina Murillo 
 
 **Matrícula:** 26100
-**Título de la propuesta:** [Inserta aquí tu respuesta]
+**Título de la propuesta:** Eliminar alumno, corregir errores de captura sin reiniciar el programa
 
 ## 1. Impacto
 
 ¿Es una mejora o una corrección? ¿Qué problema resuelve o qué agrega, y a quién beneficia?
 
-[Inserta aquí tu respuesta]
+Es una mejora, ya que al momento de capturar un alumno, si por error escribes alguna calificación mal, no hay manera de quitarlo y la unica manera de solucionar es volver a empezar el programa. 
+
+La propuesta de la opción Eliminar alumno en el menu, buscaria al alumno por nombre, pediria confirmación de eliminarlo y lo quitaria sin dejar una afectación en el codigo, de esta manera puedes volver a capturar al alumno con los datos correctos, sin necesidad de reiniciar el codigo y peder el avance. 
+
+Beneficiaria al maestro ya que podria volver a repetir las calificaciones en caso de un error. 
 
 ## 2. Qué implica en el diseño
 

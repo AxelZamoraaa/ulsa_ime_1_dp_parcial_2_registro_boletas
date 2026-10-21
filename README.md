@@ -65,7 +65,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 | Bloque | Valores elegidos | Resultado esperado |
 | --- | --- | --- |
 | 1 | 6 alumnos, un intento con 11 en español y un séptimo intento | 6 registrados, 1 rechazado por calificación y 1 aviso de lista llena |
-| 2 | 6 alumnos | Español: 7.5, Matematicas: 7, Diseno de Programas: 8, CaliAlta:  Diseno de Programas: 8, CaliBaja Matematicas: 7 |
+| 2 | 6 alumnos del escenario: sumas 45.0, 42.0 y 48.0 entre 6| Espanol: 7.5, Matematicas: 7.0, Diseno de Programas: 8.0, Mas alta: Diseno de Programas 8.0, Mas baja: Matematicas 7.0 |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | Buscar Marta y Hugo  | Marta: promedio 6.0, 2 materias reprobadas, Reprobado. Hugo: no encontrado |
 | 5 | [Calificaciones menores a 7.0] | [Luis 1, Marta 2, Raul 2; total 3 alumnos] |
