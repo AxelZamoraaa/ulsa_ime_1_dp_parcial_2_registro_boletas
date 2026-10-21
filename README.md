@@ -117,7 +117,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | --- | --- | --- |
 | 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 2 | [docs/26100/bloque.md] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 3 | [docs/26141/bloque.md] | [mejoras/26141/mejora.md] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
