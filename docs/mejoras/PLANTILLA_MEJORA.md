@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # Propuesta de mejora
 
 <!--
@@ -34,3 +36,4 @@ Receta en pseudocódigo de la solución con tu propuesta. Marca cada paso nuevo 
 ```
 [Inserta aquí tu respuesta]
 ```
+>>>>>>> cd03023d9e009a5d549ca89f82893af55bebb759
