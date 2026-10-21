@@ -75,18 +75,18 @@ Tu receta en pseudocódigo, escrita antes de programar.
 ```
 FUNCION pedirNombre()
     REPETIR
-        nombre ← leer("Nombre: ")
+        nombre  leer("Nombre: ")
         SI nombre es vacío ENTONCES
             mostrar "El nombre no puede quedar vacio."
     MIENTRAS nombre sea vacío
     DEVOLVER nombre
 
 FUNCION pedirCalificacion(materia)
-    valida ← falso
+    valida  falso
     REPETIR
-        calificacion ← leer(materia + ": ")
+        calificacion  leer(materia + ": ")
         SI calificacion es válida ENTONCES
-            valida ← verdadero
+            valida  verdadero
         SINO SI calificacion < CALIFICACION_MINIMA ENTONCES
             mostrar "La calificacion no puede ser negativa."
         SINO
@@ -98,11 +98,11 @@ FUNCION capturarAlumno(arreglos, total)
     SI total >= MAX_ALUMNOS ENTONCES
         mostrar MENSAJE_LISTA_LLENA
         DEVOLVER total
-    nombre ← pedirNombre()
-    calEspanol ← pedirCalificacion("Espanol")
-    calMatematicas ← pedirCalificacion("Matematicas")
-    calProgramas ← pedirCalificacion("Diseno de Programas")
-    total ← agregarAlumno(arreglos, total, nombre, calEspanol, calMatematicas, calProgramas)
+    nombre  pedirNombre()
+    calEspanol  pedirCalificacion("Espanol")
+    calMatematicas  pedirCalificacion("Matematicas")
+    calProgramas  pedirCalificacion("Diseno de Programas")
+    total  agregarAlumno(arreglos, total, nombre, calEspanol, calMatematicas, calProgramas)
     mostrar "Alumno " + total + " registrado."
     DEVOLVER total
 ```
