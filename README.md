@@ -115,7 +115,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 | Bloque | Documentación | Propuesta de mejora |
 | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 (Axel Zamora) | docs/26295/bloque.md | docs/26295/mejora.md |
 | 2 | [docs/26100/bloque.md] | [Inserta aquí tu respuesta] |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
