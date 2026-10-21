@@ -18,7 +18,16 @@ Beneficiaria al maestro ya que podria volver a repetir las calificaciones en cas
 
 ¿Qué partes de la solución cambian (arreglos, constantes, funciones, menú)? Justifica cada cambio.
 
-[Inserta aquí tu respuesta]
+
+Se agrega una función nueva, eliminarAlumno. Busca al alumno por nombre, pide confirmación y lo quita. Por qué: no hay forma de quitar a un alumno. Se hace en una función.
+
+Al eliminar, se recorren los datos en los cuatro arreglos a la vez. Los alumnos que están después del eliminado suben un lugar, y al final el total baja en 1. Ejemplo con el escenario: si eliminas a Marta (posición 3 de la lista), Jorge, Sofia y Raul suben un lugar y el total pasa de 6 a 5.
+Si se moviera solo uno, las calificaciones quedarían con el nombre equivocado. Y sin huecos, los reportes siguen funcionando igual.
+
+Antes de eliminar se pide confirmación, SI o NO, si deseas realizar esa acción cualquier opción que no sea 1 o 2 no borra a nadie para que un error de teclado no borre a un alumno por accidente.
+
+El menú de main.cpp tiene tres cambios pequeños: se agrega case 7 para eliminar alumno, "Salir" pasa a ser case 8 para que el usuario pueda llegar a la opción nueva sin perder todo.
+
 
 ## 3. Receta
 
