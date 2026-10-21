@@ -7,7 +7,7 @@
 
 const std::string TITULO_ESTADISTICAS = "--- ESTADISTICAS POR MATERIA ---";
 
-// Promedio por materia, y materia mas alta y mas baja con su promedio.
+
 void mostrarEstadisticas(std::string nombres[], double espanol[],
                          double matematicas[], double programas[], int total) {
     (void)nombres;  // este reporte no usa los nombres
@@ -17,7 +17,7 @@ void mostrarEstadisticas(std::string nombres[], double espanol[],
         return;
     }
 
-    // Sumar las calificaciones de cada materia
+   
     double sumaEspanol = 0;
     double sumaMatematicas = 0;
     double sumaProgramas = 0;
@@ -28,12 +28,12 @@ void mostrarEstadisticas(std::string nombres[], double espanol[],
         sumaProgramas = sumaProgramas + programas[i];
     }
 
-    // Calcular los promedios
+    
     double promEspanol = sumaEspanol / total;
     double promMatematicas = sumaMatematicas / total;
     double promProgramas = sumaProgramas / total;
 
-    // Materia con el promedio mas alto
+    
     std::string masAlta;
     double promAlta;
 
@@ -48,7 +48,7 @@ void mostrarEstadisticas(std::string nombres[], double espanol[],
         promAlta = promProgramas;
     }
 
-    // Materia con el promedio mas bajo
+    
     std::string masBaja;
     double promBaja;
 
@@ -63,7 +63,7 @@ void mostrarEstadisticas(std::string nombres[], double espanol[],
         promBaja = promProgramas;
     }
 
-    // Mostrar los resultados
+    
     std::cout << TITULO_ESTADISTICAS << "\n";
     std::cout << "Espanol: " << promEspanol << "\n";
     std::cout << "Matematicas: " << promMatematicas << "\n";
