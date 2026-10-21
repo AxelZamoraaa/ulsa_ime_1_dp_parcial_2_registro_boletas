@@ -1,6 +1,6 @@
-Propuesta de mejora elaborada por: [Inserta aquí tu respuesta]
+Propuesta de mejora elaborada por: [Alan Rodrigo Guardiola Martinez ]
 
-**Matrícula:** [Inserta aquí tu respuesta]
+**Matrícula:** [26141 ]
 **Título de la propuesta:** [Inserta aquí tu respuesta]
 
 ## 1. Impacto
