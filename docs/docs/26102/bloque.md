@@ -1,9 +1,9 @@
 ## 1. Autor
 
-**Nombre:** [Inserta aquí tu respuesta]
-**Matrícula:** [Inserta aquí tu respuesta]
-**Bloque y opción elegida:** [Inserta aquí tu respuesta]
-**Archivo de código:** [Inserta aquí tu respuesta]
+**Nombre:** [Emiliano Ferrer de la Cruz]
+**Matrícula:** [26102]
+**Bloque y opción elegida:** [main]
+**Archivo de código:** [main.cpp]
 
 ## 2. Propósito
 

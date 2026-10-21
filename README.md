@@ -9,9 +9,16 @@
 | 1 |  26295 | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Captura |
 | 2 | 26100 | Regina Murillo Arellano | reginamurilloa | Estadisticas |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+<<<<<<< HEAD
+| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | boleta |
+| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 6| [26102] | [Emiliano Ferrer de la Cruz] | [emilano.ferrer-eng
+] | [main.cpp] |
+=======
 | 4 | [26076] | [Erick Aguilar Martinez] | [Erick1867] | boletas |
 | 5 | [26165] | [Pablo Mussa] | [Pablomussa] | [reprobadas] |
 | 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+>>>>>>> 398822a0145037bb652271ef3b33d8ac2357e9f7
 
 
 
@@ -71,8 +78,13 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 | 2 | 6 alumnos del escenario: sumas 45.0, 42.0 y 48.0 entre 6| Espanol: 7.5, Matematicas: 7.0, Diseno de Programas: 8.0, Mas alta: Diseno de Programas 8.0, Mas baja: Matematicas 7.0 |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | Buscar Marta y Hugo  | Marta: promedio 6.0, 2 materias reprobadas, Reprobado. Hugo: no encontrado |
+<<<<<<< HEAD
+| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+=======
 | 5 | [Calificaciones menores a 7.0] | [Luis 1, Marta 2, Raul 2; total 3 alumnos] |
 | 6 | [] | [] |
+>>>>>>> 398822a0145037bb652271ef3b33d8ac2357e9f7
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
@@ -118,8 +130,11 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 398822a0145037bb652271ef3b33d8ac2357e9f7
 
 ## 9. Cambios a la interfaz
 
