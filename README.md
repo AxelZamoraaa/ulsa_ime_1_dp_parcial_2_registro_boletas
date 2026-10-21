@@ -121,6 +121,12 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 Axel | [docs/26295/bloque.md] | [docs/mejoras/26295/mejora.md] |
+| 2 Regina| [docs/26100/bloque.md] | [docs/mejoras/26100/mejora.md] |
+| 3 Alan| [docs/26141/bloque.md] | [docs/mejoras/26141/mejora.md] |
+| 4 Erick| [docs/26076/bloque.md] | [docs/mejoras/26076/mejora.md] |
+| 5 Pablo| [docs/26165/bloque.md] | [docs/mejoras/26165/mejora.md] |
+| 6 Ferrer| [docs/26102/bloque.md] | [docs/mejoras/26102/mejora.md] |
 
 ## 9. Cambios a la interfaz
 
